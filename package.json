@@ -1,0 +1,31 @@
+{
+  "name": "saleem-magic-string",
+  "version": "0.0.0-watch+1681455003289",
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2015/saleem-magic-string.mjs",
+  "es2020": "fesm2020/saleem-magic-string.mjs",
+  "esm2020": "esm2020/saleem-magic-string.mjs",
+  "fesm2020": "fesm2020/saleem-magic-string.mjs",
+  "fesm2015": "fesm2015/saleem-magic-string.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/saleem-magic-string.mjs",
+      "es2020": "./fesm2020/saleem-magic-string.mjs",
+      "es2015": "./fesm2015/saleem-magic-string.mjs",
+      "node": "./fesm2015/saleem-magic-string.mjs",
+      "default": "./fesm2020/saleem-magic-string.mjs"
+    }
+  }
+}
